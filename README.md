@@ -3,11 +3,14 @@
 
 ## 학습과정
 ### 1. 데이터셋 구축하기
-testvideo 폴더의 샘플영상을 frame.ipynb파일을 통하여 프레임단위로 저장하였습니다.
+샘플영상을 frame.ipynb파일을 통하여 프레임단위로 저장하였습니다.<br>
+샘플영상 : https://drive.google.com/file/d/1X8V_ey0FBNAO6l1QZMqZcshxT6ogsQAP/view?usp=sharing
 
 이후, yolo학습을 위하여 라벨링을 진행하였습니다.<br>
 라벨링은 https://github.com/tzutalin/labelImg.git labelImg를 통하여 라벨링을 진행, 데이터셋을 구축하였습니다.
 
+class는 총 3개로,
+notform, beforedrop, drop으로 선언하였습니다.
 
 
 
